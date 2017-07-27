@@ -4,4 +4,17 @@
     <string name="menu_creeds">Creeds</string>
     <string name="menu_confessions">Confessions</string>
     <string name="menu_congregations">Congregations</string>
+    <string name="creed_apostles">"Apostles' Creed - ca. unknown"</string>
+    <string name="creed_nicene">"Nicene Creed - ca. 324 A.D."</string>
+    <string name="creed_athanasian">"Athanasian Creed - ca. late 5th early 6th century A.D."</string>
+    <string name="confessions_heidelberg">Heidelberg Catechism - ca. 1563</string>
+    <string name="confessions_belgic">Belgic Confession - ca. 1567</string>
+    <string name="confessions_dort">Canons of Dort - ca. 1619</string>
+    <string name="history_eureka">Eureka Classis</string>
+    <string name="history_1934">1934 Merger</string>
+    <string name="history_after_1934">Since 1934 Merger</string>
+    <string name="history_van_til">Letter by Cornelius Van Til</string>
+    <string name="congregation_classis">By Classis</string>
+    <string name="congregation_state">By State</string>
+
 </resources>

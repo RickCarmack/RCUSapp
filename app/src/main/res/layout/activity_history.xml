@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.android.rcusapp.history">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="@color/colorMenuText"
+        android:text="@string/history_eureka"
+        android:background="@color/color_history"
+        android:onClick=""/>
+
+    <TextView
+        android:id="@+id/creeds"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="@color/colorMenuText"
+        android:text="@string/history_1934"
+        android:background="@color/color_creeds"
+        android:onClick=""/>
+    <TextView
+        android:id="@+id/confessions"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="@color/colorMenuText"
+        android:text="@string/history_after_1934"
+        android:background="@color/color_confessions"
+        android:onClick=""/>
+    <TextView
+        android:id="@+id/congregations"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="@color/colorMenuText"
+        android:text="@string/history_van_til"
+        android:background="@color/color_congregations"
+        android:onClick=""/>
+
+</LinearLayout>

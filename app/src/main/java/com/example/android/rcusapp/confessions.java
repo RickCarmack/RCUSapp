@@ -9,5 +9,6 @@ public class confessions extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confessions);
+        setTitle("RCUS > Confessions");
     }
 }
