@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.rcusapp.classis">
+
+    <TextView
+        android:id="@+id/classis_east"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="@color/colorMenuText"
+        android:text="@string/classis_east"
+        android:background="@color/color_history"
+        android:onClick=""/>
+
+    <TextView
+        android:id="@+id/classis_northern_plains"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="@color/colorMenuText"
+        android:text="@string/classis_northern_plains"
+        android:background="@color/color_creeds"
+        android:onClick=""/>
+    <TextView
+        android:id="@+id/classis_south_central"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="@color/colorMenuText"
+        android:text="@string/classis_south_central"
+        android:background="@color/color_confessions"
+        android:onClick=""/>
+    <TextView
+        android:id="@+id/classis_western"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="@color/colorMenuText"
+        android:text="@string/classis_western"
+        android:background="@color/color_congregations"
+        android:onClick=""/>
+
+
+
+</LinearLayout>

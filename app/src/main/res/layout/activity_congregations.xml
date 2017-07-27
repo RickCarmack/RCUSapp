@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/history"
+        android:id="@+id/byClassis"
         android:layout_width="match_parent"
         android:layout_height="@dimen/list_item_height"
         android:textSize="16sp"
@@ -20,7 +20,7 @@
         android:onClick=""/>
 
     <TextView
-        android:id="@+id/creeds"
+        android:id="@+id/byState"
         android:layout_width="match_parent"
         android:layout_height="@dimen/list_item_height"
         android:textSize="16sp"

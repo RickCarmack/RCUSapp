@@ -16,5 +16,9 @@
     <string name="history_van_til">Letter by Cornelius Van Til</string>
     <string name="congregation_classis">By Classis</string>
     <string name="congregation_state">By State</string>
+    <string name="classis_east">Covenant East</string>
+    <string name="classis_northern_plains">Northern Plains</string>
+    <string name="classis_south_central">South Central</string>
+    <string name="classis_western">Western</string>
 
 </resources>
