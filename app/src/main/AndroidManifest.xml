@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".history" />
+        <activity android:name=".creeds" />
+        <activity android:name=".confessions" />
+        <activity android:name=".congregations"></activity>
     </application>
 
 </manifest>

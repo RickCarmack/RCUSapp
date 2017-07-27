@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RCUS</string>
+    <string name="menu_history">History</string>
+    <string name="menu_creeds">Creeds</string>
+    <string name="menu_confessions">Confessions</string>
+    <string name="menu_congregations">Congregations</string>
 </resources>
